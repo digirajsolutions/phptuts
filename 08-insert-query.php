@@ -11,7 +11,7 @@
     if(!$conn) {
         die('Failed to connect');
     } else {
-        echo 'Connection was successful';
+        echo 'Connection was created.';
         echo '<br>';
     }
 
@@ -19,9 +19,9 @@
     $result = mysqli_query($conn, $sql);
 
     if($result) {
-        echo 'The query was inserted successfully. <br>';
+        echo 'The query was inserted. <br>';
     } else {
-        echo 'The query was not inserted successfully. <br>';
+        echo 'The query was not inserted. <br>';
     }
     
 ?>
