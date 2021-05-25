@@ -11,7 +11,7 @@
     if(!$conn) {
         die('Failed to connect');
     } else {
-        echo 'Connection was created.';
+        echo 'Connection was created successfully.';
         echo '<br>';
     }
 
