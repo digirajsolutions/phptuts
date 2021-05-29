@@ -1,0 +1,8 @@
+This is a new file to write into it. 
+We use fwrite method to write the content into it.. 
+The content has been written into it. 
+This is appended to the file 
+This is appended to the file 
+This is appended to the file 
+//appended three times bcz the file was executed three times.
+ 
