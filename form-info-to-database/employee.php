@@ -17,7 +17,7 @@
       <div class="form-wrap">
         <h2>Employee Info</h2>
         <p>Please fill up your details here.</p>
-        <form action="/phptuts/form-info-to-database/employee.php" id="employeeForm" method="post">
+        <form action="employee.php" id="employeeForm" method="post">
           <div class="form-group">
             <label for="empid">Employee Id</label>
             <input type="text" name="empid" id="empid" />
@@ -65,9 +65,9 @@
             $result = mysqli_query($conn, $query);
 
             if($result) {
-              echo 'Entry Submitted';
+              echo 'Entry was successfully submitted to database';
             } else {
-              echo "Entry not submitted";
+              echo "Entry was not submitted to database.";
             }
           }
         }
